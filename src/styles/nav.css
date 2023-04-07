@@ -1,0 +1,121 @@
+.header-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 20px 0px;
+}
+
+.header-nav.down {
+    background: #fff;
+    padding: 10px 0px;
+}
+
+.name-logo-nav {
+    position: relative;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    transition: 1.5s;
+    letter-spacing: 3px;
+    padding-bottom: 8px;
+}
+
+.nav-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-nav ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-nav ul li {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.nav-nav ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+    padding-bottom: 8px;
+    background-image: linear-gradient(90deg, #000, #000, #000);
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    background-position: left bottom;
+    transition: background-size 0.3s ease-in-out;
+}
+
+.nav-nav ul li a:hover {
+    background-size: 97% 2px;
+}
+
+.header-nav.down .name-logo-nav,
+.header-nav.down .nav-nav ul li a {
+    color: #000;
+}
+
+.menu-nav {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .header-nav {
+        justify-content: space-between;
+    }
+
+    .nav-nav ul {
+      display: none;
+    }
+
+    .menu-nav {
+        display: block;
+        padding-right: 4rem;
+    }
+
+    .name-logo-nav {
+        color: #1976d2;
+        padding-left: 5rem;
+        padding-bottom: 0%;
+    }
+
+    #icon-menu {
+        font-size: 2.2rem;
+    }
+  }
+
+
+
+  @media screen and (max-width: 575px) {
+    .menu-nav {
+        padding-right: 0.5rem;
+    }
+
+    .name-logo-nav {
+        padding-left: 1rem;
+        padding-bottom: 0%;
+        font-size: 1.2rem;
+    }
+
+    #icon-menu {
+        font-size: 2rem;
+    }
+  }
