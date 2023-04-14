@@ -1,0 +1,144 @@
+.container-global-sectionabout {
+    width: 70%;
+    background-color: rgba(253, 255, 252, 0.95);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 0 30px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 1rem;
+    margin-bottom: 15rem;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+
+.me-redes-sectionabout {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+
+.me-redes-sectionabout p {
+    text-align: justify;
+    padding: 2rem 2rem;
+    width: 100%;
+}
+
+.redes-sectionabout {
+    width: 100%;
+}
+
+.icons-redes-sectionabout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-redes-sectionabout a {
+    font-size: 2rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.icons-redes-sectionabout a h4 {
+    font-size: 1rem;
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+.container-global-sectionabout h2 {
+    margin: 0%;
+    color: #00a78e;
+    font-size: 1.6rem;
+}
+
+.icons-tittle-sectionabout {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.icons-container-sectionabout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.icons-sectionabout {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.icons-sectionabout span {
+    font-size: 3rem;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons-sectionabout h3 {
+    font-size: 1rem;
+    color: #000;
+}
+
+
+@media screen and (max-width: 1350px) {
+    .container-global-sectionabout  {
+        width: 90%;
+    }
+
+    .me-redes-sectionabout {
+        padding: 1rem 2rem;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .container-global-sectionabout {
+        margin: 0%;
+        border-radius: 0%;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 3rem;
+        box-shadow: none;
+    }
+
+    .me-redes-sectionabout {
+        width: 100%;
+        padding: 0%;
+    }
+
+    .me-redes-sectionabout p {
+        width: 90%;
+        padding: 0%;
+    }
+
+    .icons-tittle-sectionabout {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .redes-sectionabout {
+        margin-top: 3rem;
+    }
+
+    .icons-redes-sectionabout {
+        margin-top: 1rem;
+    }
+}
