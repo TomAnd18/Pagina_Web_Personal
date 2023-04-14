@@ -3,6 +3,7 @@ import Nav from '../components/Nav';
 import SectionHome from '../components/SectionHome';
 import SectionAbout from '../components/SectionAbout';
 import '../styles/home.css';
+import SectionPortfolio from '../components/SectionPortfolio';
 
 export default function Home() {
 
@@ -58,8 +59,8 @@ export default function Home() {
             <section className='seccion' id='about'>
                 <SectionAbout/>
             </section>
-            <section style={{height: '100vh', paddingTop: '5rem'}} className='seccion' id='portfolio'>
-                Seccion Portfolio
+            <section className='seccion' id='portfolio'>
+                <SectionPortfolio/>
             </section>
             <section style={{height: '100vh', paddingTop: '5rem'}} className='seccion' id='experience'>
                 Seccion Experience

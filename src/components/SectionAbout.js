@@ -7,7 +7,7 @@ export default function SectionAbout() {
   return (
     <div className='container-global-sectionabout'>
         <div className='me-redes-sectionabout'>
-          <h2> Sobre me </h2>
+          <h2> Sobre mi </h2>
           <p>
               Soy un desarrollador Full Stack apasionado por crear soluciones web innovadoras. 
               Con experiencia en desarrollo Front-end y Back-end, mi objetivo es ofrecer un 
@@ -17,8 +17,8 @@ export default function SectionAbout() {
           <div className='redes-sectionabout'>
             <h2> Mis Redes </h2>
             <div className='icons-redes-sectionabout'>
-              <a href='!#'> <FontAwesomeIcon style={{color: '#181717'}} icon={faGithub}/> <h4>GitHub</h4> </a>
-              <a href='!#'> <FontAwesomeIcon style={{color: '#0077B5'}} icon={faLinkedin}/> <h4>Linkedin</h4> </a>
+              <a href='https://github.com/TomAnd18/' target='_blank' rel="noopener noreferrer"> <FontAwesomeIcon style={{color: '#181717'}} icon={faGithub}/> <h4>GitHub</h4> </a>
+              <a href='https://www.linkedin.com/in/tomas-regalado-manay/' target='_blank' rel="noopener noreferrer"> <FontAwesomeIcon style={{color: '#0077B5'}} icon={faLinkedin}/> <h4>Linkedin</h4> </a>
             </div>
           </div>
         </div>

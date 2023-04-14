@@ -49,6 +49,10 @@
     color: #000;
 }
 
+.icons-redes-sectionabout a:hover {
+    text-decoration: underline;
+}
+
 .icons-redes-sectionabout a h4 {
     font-size: 1rem;
     margin-left: 8px;
