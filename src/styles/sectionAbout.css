@@ -1,12 +1,11 @@
 .container-global-sectionabout {
     width: 70%;
-    background-color: rgba(253, 255, 252, 0.95);
+    background-color: rgba(253, 255, 252, 0.97);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 0 30px 0 rgba(0, 0, 0, 0.05);
     border-radius: 1rem;
-    margin-bottom: 15rem;
     margin-top: 6rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding-bottom: 1rem;
@@ -14,23 +13,29 @@
 }
 
 .me-redes-sectionabout {
-    width: 50%;
+    width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+}
+
+.me-sectionabout {
+    width: 60%;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem 4rem;
 }
 
-.me-redes-sectionabout p {
+.me-sectionabout p {
     text-align: justify;
     padding: 2rem 2rem;
     width: 100%;
 }
 
 .redes-sectionabout {
-    width: 100%;
+    width: 40%;
+    padding: 1rem 2rem;
 }
 
 .icons-redes-sectionabout {
@@ -61,12 +66,12 @@
 
 .container-global-sectionabout h2 {
     margin: 0%;
-    color: #00a78e;
+    color: #7a8b8b;
     font-size: 1.6rem;
 }
 
 .icons-tittle-sectionabout {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,22 +81,36 @@
 }
 
 .icons-container-sectionabout {
+    max-width: 90%;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
 }
 
 .icons-sectionabout {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem 2rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3);
+    border-radius: 1rem;
+    width: 10rem;
+    padding: 1rem 0rem;
+    transition: 0.5s all ease;
+}
+
+.icons-sectionabout:hover {
+    outline: 4px solid #b4b5b74d;
+    outline-offset: 4px ;
+    background: #b4b5b74d;
+    transition: 0.1s all ease;
 }
 
 .icons-sectionabout span {
     font-size: 3rem;
-    padding: 1rem 3rem;
+    /* padding: 1rem 3rem; */
     display: flex;
     flex-direction: column;
 }
@@ -99,6 +118,8 @@
 .icons-sectionabout h3 {
     font-size: 1rem;
     color: #000;
+    margin: 0%;
+    margin-top: 1rem;
 }
 
 
@@ -116,33 +137,65 @@
 @media screen and (max-width: 991px) {
     .container-global-sectionabout {
         margin: 0%;
+        /* margin: 3rem 0; */
         border-radius: 0%;
         flex-direction: column;
         width: 100%;
         padding-top: 3rem;
+        /* border-radius: 1rem; */
         box-shadow: none;
+        background-color: rgba(253, 255, 252, 1);
     }
 
     .me-redes-sectionabout {
         width: 100%;
         padding: 0%;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .me-redes-sectionabout p {
+    .me-sectionabout {
+        width: 100%;
+        padding: 0%;
+    }
+
+    .me-sectionabout p {
         width: 90%;
         padding: 0%;
     }
 
     .icons-tittle-sectionabout {
         width: 100%;
-        margin-top: 3rem;
+        margin-top: 0rem;
     }
 
     .redes-sectionabout {
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 
     .icons-redes-sectionabout {
         margin-top: 1rem;
+    }
+
+    .icons-container-sectionabout {
+        max-width: 90%;
+    }
+
+    .icons-sectionabout {
+        background: none;
+        border-radius: 0;
+        width: 6rem;
+        padding: 0rem 0rem;
+        margin-bottom: 2rem;
+        outline: none;
+        box-shadow: none;
+    }
+
+    .icons-sectionabout span {
+        font-size: 3rem;
+    }
+
+    .icons-sectionabout {
+        pointer-events: none;
     }
 }

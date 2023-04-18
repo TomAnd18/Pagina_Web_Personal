@@ -26,7 +26,7 @@ export default function SectionPortfolio() {
 
     return (
     <div className='container-global-sectionportfolio'>
-        <h2> Proyectos que desarrolle </h2>
+        <h2> Mis Trabajos </h2>
         <div className='proyectos-sectionportfolio'>
             {
                 proyectos.map((p) => {

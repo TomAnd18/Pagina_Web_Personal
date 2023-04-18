@@ -1,5 +1,6 @@
 import * as React from 'react';
 import '../styles/sectionPortfolio.css';
+import Link from '@mui/material/Link';
 
 export function MediaCard( { image, tittle, description, technologies } ) {
   return (
@@ -16,6 +17,17 @@ export function MediaCard( { image, tittle, description, technologies } ) {
               return <span> {item} </span>;
             })
           }
+        </div>
+        <div className='btn-link-mediacard'>
+          <Link
+            component="button"
+            variant="body2"
+            onClick={() => {
+              console.info("I'm a button.");
+            }}
+          >
+            Demo
+          </Link>
         </div>
       </div>
     </div>
