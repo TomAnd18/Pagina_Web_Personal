@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import '../styles/nav.css';
 import Menu from '../components/Menu';
+import logo from '../images/logo2.png';
 
 export default function Nav() {
 
@@ -26,13 +27,16 @@ export default function Nav() {
     return (
         <>
             <header ref={headerRef} className='header-nav'>
-                <a className='name-logo-nav' href='#!'>Developer</a>
+                <div className='container-logo-nav'>
+                    <img className='logo-nav' alt='logo' src={logo}></img>
+                    <a className='name-logo-nav' href='#!'>Web Developer</a>
+                </div>
                 <nav className='nav-nav'>
                     <ul id='nav-wrap'>
                         <li> <a href='#home'> Inicio </a> </li>
                         <li> <a href='#about'> Sobre Mi </a> </li>
                         <li> <a href='#portfolio'> Portfolio </a> </li>
-                        <li> <a href='#experience'> Contacto </a> </li>
+                        <li> <a href='#contacto'> Contacto </a> </li>
                     </ul>
                     <div className='menu-nav'>
                         <Menu/>

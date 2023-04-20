@@ -1,9 +1,10 @@
 import React, { useEffect, useRef } from 'react'
 import Nav from '../components/Nav';
 import SectionHome from '../components/SectionHome';
-import SectionAbout from '../components/SectionAbout';
+import About from '../components/About';
 import '../styles/home.css';
-import SectionPortfolio from '../components/SectionPortfolio';
+import Portfolio from '../components/Portfolio';
+import Contacto from '../components/Contacto';
 
 export default function Home() {
 
@@ -57,13 +58,13 @@ export default function Home() {
                 <SectionHome/>
             </section>
             <section className='seccion' id='about'>
-                <SectionAbout/>
+                <About/>
             </section>
             <section className='seccion' id='portfolio'>
-                <SectionPortfolio/>
+                <Portfolio/>
             </section>
-            <section style={{height: '100vh', paddingTop: '5rem'}} className='seccion' id='experience'>
-                Seccion Experience
+            <section className='seccion' id='contacto'>
+                <Contacto/>
             </section>
         </div>
     </>

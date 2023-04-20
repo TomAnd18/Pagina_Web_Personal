@@ -1,5 +1,4 @@
 .seccion {
-    /* padding-top: 5rem; */
     margin: 0%;
     width: 100%;
     display: flex;
@@ -9,8 +8,6 @@
 }
 
 .secciones-page-home {
-    /* background-image: url('https://firebasestorage.googleapis.com/v0/b/react-img-games.appspot.com/o/imggames%2F25329.jpg?alt=media&token=84e1c7f4-0058-45bd-b128-ef58c0e62131'); */
-    /* background-color: rgba(255, 255, 255, 0); */
     background-image: url('../images/background-full-screen.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -24,13 +21,17 @@
     content: '';
     height: 10px;
     width: 100%;
-    /* background-image: linear-gradient(to right, #f00, #00f); */
     background-image: linear-gradient(to right, #e4ff00, #00efff);
 }
 
-#about, #portfolio {
-    background-color: #18181bd4;
+#about, #contacto {
+    background-color: #fff;
 }
+
+#portfolio {
+    background: #f0f2f5;
+}
+
 
 
 @media screen and (max-width: 991px) {

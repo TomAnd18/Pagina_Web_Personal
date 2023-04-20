@@ -4,7 +4,7 @@ import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import Button from '@mui/material/Button';
 import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
+// import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 // import IconButton from '@mui/material/IconButton';
@@ -13,7 +13,7 @@ import '../styles/nav.css';
 
 export default function Menu() {
   const [state, setState] = React.useState({
-    right: false,
+    top: false,
   });
 
   const toggleDrawer = (anchor, open) => (event) => {
@@ -34,14 +34,15 @@ export default function Menu() {
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
+      style={{marginTop: '0%'}}
     >
       <List>
-        {['Home', 'About', 'Portfolio', 'Experience'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemText primary={text} />
+        {['home', 'about', 'portfolio', 'contacto'].map((text, index) => (
+          <a href={'#'+text} style={{textDecoration: 'none', color: '#000', textTransform: 'capitalize'}}>
+            <ListItemButton style={{marginTop: '0%'}}>
+              <ListItemText style={{marginTop: '0%', textAlign: 'center'}} primary={text} />
             </ListItemButton>
-          </ListItem>
+          </a>
         ))}
       </List>
       <Divider />
@@ -50,7 +51,7 @@ export default function Menu() {
 
   return (
     <div>
-      {['right'].map((anchor) => (
+      {['top'].map((anchor) => (
         <React.Fragment key={anchor}>
           <Button id='btn-menu' onClick={toggleDrawer(anchor, true)}>
             <MenuIcon id='icon-menu'/>
@@ -60,6 +61,7 @@ export default function Menu() {
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
             onOpen={toggleDrawer(anchor, true)}
+            id='space-menu'
           >
             {list(anchor)}
           </SwipeableDrawer>
