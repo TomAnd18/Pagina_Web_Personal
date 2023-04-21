@@ -5,6 +5,7 @@ import About from '../components/About';
 import '../styles/home.css';
 import Portfolio from '../components/Portfolio';
 import Contacto from '../components/Contacto';
+import Footer from '../components/Footer';
 
 export default function Home() {
 
@@ -66,6 +67,7 @@ export default function Home() {
             <section className='seccion' id='contacto'>
                 <Contacto/>
             </section>
+            <Footer/>
         </div>
     </>
   )

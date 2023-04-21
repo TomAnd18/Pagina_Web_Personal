@@ -38,11 +38,11 @@
 }
 
 .proyectos-sectionportfolio .card-proyecto:nth-child(odd) {
-    flex-direction: row-reverse; /* Fondo para las posiciones impares */
+    flex-direction: row; /* Fondo para las posiciones impares */
 }
   
 .proyectos-sectionportfolio .card-proyecto:nth-child(even) {
-    flex-direction: row; /* Fondo para las posiciones pares */
+    flex-direction: row-reverse; /* Fondo para las posiciones pares */
 }
 
 .img-proyecto {
@@ -107,6 +107,7 @@
         box-shadow: none;
         border-radius: 0%;
         padding-top: 3rem;
+        margin-bottom: 0%;
     }
 
     .card-proyecto {

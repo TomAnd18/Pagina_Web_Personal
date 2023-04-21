@@ -16,6 +16,8 @@ export default function Menu() {
     top: false,
   });
 
+  const item = ['home', 'about', 'portfolio', 'contacto'];
+
   const toggleDrawer = (anchor, open) => (event) => {
     if (
       event &&
@@ -37,8 +39,8 @@ export default function Menu() {
       style={{marginTop: '0%'}}
     >
       <List>
-        {['home', 'about', 'portfolio', 'contacto'].map((text, index) => (
-          <a href={'#'+text} style={{textDecoration: 'none', color: '#000', textTransform: 'capitalize'}}>
+        {['inicio', 'sobre mi', 'portfolio', 'contacto'].map((text, index) => (
+          <a href={'#'+item[index]} style={{textDecoration: 'none', color: '#000', textTransform: 'capitalize'}}>
             <ListItemButton style={{marginTop: '0%'}}>
               <ListItemText style={{marginTop: '0%', textAlign: 'center'}} primary={text} />
             </ListItemButton>
