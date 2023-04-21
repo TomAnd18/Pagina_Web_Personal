@@ -17,12 +17,12 @@
     align-items: center;
 }
 
-#home::after {
+/* #home::after {
     content: '';
     height: 10px;
     width: 100%;
     background-image: linear-gradient(to right, #e4ff00, #00efff);
-}
+} */
 
 #about, #contacto {
     background-color: #fff;

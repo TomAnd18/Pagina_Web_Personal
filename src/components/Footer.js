@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/logo2.png';
+import logo from '../images/logo-alone.png';
 import '../styles/footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';

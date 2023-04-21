@@ -59,7 +59,7 @@
 
 .copy-footer p {
     margin: 0%;
-    padding: 0.5rem;
+    padding: 1rem;
     font-size: 1rem;
 }
 
@@ -80,5 +80,9 @@
 
     .copy-footer p {
         font-size: 0.8rem;
+    }
+
+    .explore-footer {
+        width: 100%;
     }
 }

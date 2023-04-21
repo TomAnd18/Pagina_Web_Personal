@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import '../styles/nav.css';
 import Menu from '../components/Menu';
-import logo from '../images/logo2.png';
+import logo from '../images/logo.png';
 
 export default function Nav() {
 
@@ -29,7 +29,7 @@ export default function Nav() {
             <header ref={headerRef} className='header-nav'>
                 <div className='container-logo-nav'>
                     <img className='logo-nav' alt='logo' src={logo}></img>
-                    <a className='name-logo-nav' href='#!'>Web Developer</a>
+                    {/* <a className='name-logo-nav' href='#!'>Web Developer</a> */}
                 </div>
                 <nav className='nav-nav'>
                     <ul id='nav-wrap'>
