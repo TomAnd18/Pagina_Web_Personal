@@ -2,7 +2,7 @@ import * as React from 'react';
 import '../styles/sectionPortfolio.css';
 import Link from '@mui/material/Link';
 
-export function MediaCard( { image, tittle, description, technologies } ) {
+export function MediaCard( { image, tittle, description, technologies, url } ) {
   return (
     <div className='card-proyecto'>
       <div className='img-proyecto'>
@@ -22,11 +22,9 @@ export function MediaCard( { image, tittle, description, technologies } ) {
           <Link
             component="button"
             variant="body2"
-            onClick={() => {
-              console.info("I'm a button.");
-            }}
+            onClick={() => { window.open(url, '_blank') }}
           >
-            Demo
+            Ver
           </Link>
         </div>
       </div>

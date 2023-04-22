@@ -28,8 +28,9 @@
     margin: 0%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    padding: 0 1rem;
+    padding: 8px 16px 10px 16px;
     border-radius: 1rem;
+    background: #b4b5b740;
 }
 
 .container-infocards {
@@ -104,6 +105,8 @@
     .container-infocards {
         flex-direction: column;
         width: 100%;
+        padding-bottom: 1rem;
+        padding-top: 3rem;
     }
 
     .info-card-contacto {
@@ -124,9 +127,5 @@
 
     .container-ico-contacto {
         margin-right: 1rem;
-    }
-
-    .container-infocards {
-        padding-bottom: 1rem;
     }
 }

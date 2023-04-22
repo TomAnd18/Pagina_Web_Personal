@@ -3,12 +3,11 @@
     background: #fff;
     /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 0 30px 0 rgba(0, 0, 0, 0.05); */
     border-radius: 1rem;
-    margin-top: 6rem;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
@@ -28,10 +27,13 @@
 }
 
 .me-sectionabout p {
-    text-align: justify;
-    padding: 2rem 2rem;
+    text-align: center;
+    padding: 1rem 1rem;
     width: 100%;
     color: #646464;
+    font-family: monospace;
+    font-size: 1.1rem;
+    margin: 0;
 }
 
 .redes-sectionabout {
@@ -91,7 +93,7 @@
 }
 
 .icons-sectionabout {
-    margin: 2rem;
+    margin: 1rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,23 +163,37 @@
     .me-sectionabout p {
         width: 90%;
         padding: 0%;
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        text-align: justify;
     }
 
     .icons-tittle-sectionabout {
         width: 100%;
-        margin-top: 0rem;
+        margin-top: 1.5rem;
     }
 
     .redes-sectionabout {
         margin-top: 2rem;
+        width: 100%;
+        padding: 0%;
     }
 
     .icons-redes-sectionabout {
-        margin-top: 1rem;
+        margin-top: 0rem;
+    }
+
+    .icons-redes-sectionabout a {
+        font-size: 1.5rem;
+    }
+
+    .icons-redes-sectionabout a h4 {
+        font-size: 0.8rem;
     }
 
     .icons-container-sectionabout {
         max-width: 90%;
+        margin-top: 1rem;
     }
 
     .icons-sectionabout {

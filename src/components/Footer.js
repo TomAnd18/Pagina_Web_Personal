@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../images/logo-alone.png';
 import '../styles/footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faLocationDot, faPhone, faHouse, faCode, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
@@ -15,6 +15,7 @@ export default function Footer() {
                 <div className='icons-footer'>
                     <a href='https://www.linkedin.com/in/tomas-regalado-manay/' target='_blank' rel="noopener noreferrer"> <FontAwesomeIcon style={{color: '#0077B5'}} icon={faLinkedin}/> </a>
                     <a href='https://github.com/TomAnd18/' target='_blank' rel="noopener noreferrer"> <FontAwesomeIcon style={{color: '#181717'}} icon={faGithub}/> </a>
+                    <a href="https://api.whatsapp.com/send?phone=2216748479&text=¡Hola Tomas! Estoy interesado en tus servicios." target='_blank' rel="noopener noreferrer"> <FontAwesomeIcon style={{color: '#25D366'}} icon={faWhatsapp}/> </a>
                 </div>
             </div>
             <div className='explore-footer'>

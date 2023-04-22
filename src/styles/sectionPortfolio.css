@@ -52,7 +52,8 @@
 .img-proyecto img {
     width: 100%;
     border-radius: 8px;
-    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2);
+    /* box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2); */
+    border: 1px solid #dcdee1;
 }
 
 .data-proyecto {
@@ -137,6 +138,10 @@
 
     .icons-del-proyecto span {
         font-size: 12px;
+    }
+
+    .proyectos-sectionportfolio {
+        margin-top: 1rem;
     }
 
     .proyectos-sectionportfolio .card-proyecto:nth-child(odd) {

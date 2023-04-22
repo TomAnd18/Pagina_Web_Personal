@@ -5,8 +5,8 @@ import Button from '@mui/material/Button';
 import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
 // import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
+// import ListItemButton from '@mui/material/ListItemButton';
+// import ListItemText from '@mui/material/ListItemText';
 // import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import '../styles/nav.css';
@@ -38,12 +38,13 @@ export default function Menu() {
       onKeyDown={toggleDrawer(anchor, false)}
       style={{marginTop: '0%'}}
     >
-      <List>
+      <List style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
         {['inicio', 'sobre mi', 'portfolio', 'contacto'].map((text, index) => (
-          <a href={'#'+item[index]} style={{textDecoration: 'none', color: '#000', textTransform: 'capitalize'}}>
-            <ListItemButton style={{marginTop: '0%'}}>
-              <ListItemText style={{marginTop: '0%', textAlign: 'center'}} primary={text} />
-            </ListItemButton>
+          <a href={'#'+item[index]} style={{textDecoration: 'none', color: '#000', textTransform: 'capitalize', padding: '8px 0'}}>
+            {/* <ListItemButton style={{marginTop: '0%'}}>
+              <ListItemText id='selection-menu' style={{marginTop: '0%', textAlign: 'center'}} primary={text} />
+            </ListItemButton> */}
+            {text}
           </a>
         ))}
       </List>

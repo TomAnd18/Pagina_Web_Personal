@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/sectionAbout.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faNode, faJs, faReact, faPhp, faJava, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faNode, faJs, faReact, faPhp, faJava, faGithub, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 export default function About() {
   return (
@@ -9,11 +9,28 @@ export default function About() {
         <div className='me-redes-sectionabout'>
           <div className='me-sectionabout'>
             <h2> Sobre mi </h2>
+            {/* <p>
+              Soy desarrollador Front-End con conocimientos en Back-End, lo que me permite trabajar en 
+              proyectos web de forma integral, estoy comprometido con el aprendizaje continuo y la actualización constante de mis habilidades 
+              para poder ofrecer soluciones de calidad combinando buenas prácticas de programación y aprender más sobre el desarrollo en el 
+              lado del servidor y las bases de datos para poder brindar una solución completa.
+              Como persona autónoma, estoy acostumbrado a trabajar de manera independiente y soy capaz de tomar la iniciativa y ser responsable 
+              en mi trabajo. Estoy dispuesto a trabajar en equipo y colaborar con otros desarrolladores y diseñadores para lograr los objetivos del proyecto.
+            </p> */}
+            <p style={{marginTop: '1rem'}}>
+              Soy un desarrollador Front-End apasionado por crear interfaces de usuario atractivas y funcionales para 
+              proyectos web. Además, cuento con conocimientos en Back-End que me permiten tener una visión integral 
+              del desarrollo y brindar soluciones completas.
+            </p>
             <p>
-                Soy un desarrollador Full Stack apasionado por crear soluciones web innovadoras. 
-                Con experiencia en desarrollo Front-end y Back-end, mi objetivo es ofrecer un 
-                servicio personalizado y de calidad a mis clientes, combinando tecnologías de 
-                última generación y buenas prácticas de programación.
+              Estoy comprometido con el aprendizaje continuo y la actualización constante de mis habilidades para estar
+              al día con las últimas tendencias y tecnologías. Me considero una persona autónoma, capaz de trabajar de 
+              manera independiente y tomar decisiones de manera efectiva. Al mismo tiempo, disfruto trabajar 
+              en equipo y colaborar con otros desarrolladores y diseñadores para lograr los objetivos del proyecto.
+            </p>
+            <p>
+              Mi enfoque es siempre en la calidad del código y en crear una experiencia de usuario fluida y atractiva. Me 
+              apasiona trabajar en proyectos retadores que me permitan aprender y crecer como desarrollador.
             </p>
           </div>
           <div className='redes-sectionabout'>
@@ -21,6 +38,7 @@ export default function About() {
             <div className='icons-redes-sectionabout'>
               <a href='https://www.linkedin.com/in/tomas-regalado-manay/' target='_blank' rel="noopener noreferrer"> <FontAwesomeIcon style={{color: '#0077B5'}} icon={faLinkedin}/> <h4>Linkedin</h4> </a>
               <a href='https://github.com/TomAnd18/' target='_blank' rel="noopener noreferrer"> <FontAwesomeIcon style={{color: '#181717'}} icon={faGithub}/> <h4>GitHub</h4> </a>
+              <a href="https://api.whatsapp.com/send?phone=2216748479&text=¡Hola Tomas! Estoy interesado en tus servicios." target='_blank' rel="noopener noreferrer"> <FontAwesomeIcon style={{color: '#25D366'}} icon={faWhatsapp}/> <h4>Whatsapp</h4> </a>
             </div>
           </div>
         </div>
