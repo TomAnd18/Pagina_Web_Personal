@@ -8,7 +8,7 @@
 }
 
 .secciones-page-home {
-    background-image: url('../images/background-full-screen.jpg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/react-img-games.appspot.com/o/imggames%2Fbackground-full-screen.jpg?alt=media&token=22c871fe-b4c4-4dd5-842f-7c0b797fa527');
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -36,6 +36,6 @@
 
 @media screen and (max-width: 991px) {
     .secciones-page-home {
-        background-image: url('../images/background-smartphone-screen.jpg');
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/react-img-games.appspot.com/o/imggames%2Fbackground-smartphone-screen.jpg?alt=media&token=e0cc755a-4875-4559-8942-420b8ee25039');
     }
 }
