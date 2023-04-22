@@ -1,7 +1,7 @@
 {
   "name": "pagina-web-personal",
   "version": "0.1.0",
-  "homepage": "https://[TomAnd18].github.io/[Pagina_Web_Personal]",
+  "homepage": "https://TomAnd18.github.io/Pagina_Web_Personal",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
