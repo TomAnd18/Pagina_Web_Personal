@@ -1,6 +1,5 @@
 .container-global-sectionportfolio {
     width: 70%;
-    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 0 30px 0 rgba(0, 0, 0, 0.05); */
     border-radius: 1rem;
     margin-bottom: 5rem;
     margin-top: 2rem;
@@ -30,12 +29,21 @@
     display: flex;
     justify-content: center;
     background: #fff;
-    /* box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2); */
     border-radius: 8px;
     overflow: hidden;
     font-family: 'opensans-regular', sans-serif;
     color: #6a7575;
+    outline: 0px solid #00a1ffab;
 }
+
+.card-proyecto:hover {
+    outline-width: 2px;
+    outline-offset: 4px ;
+}
+
+/* .card-proyecto:hover .img-proyecto img {
+    transform: scale(1.05);
+}   */
 
 .proyectos-sectionportfolio .card-proyecto:nth-child(odd) {
     flex-direction: row; /* Fondo para las posiciones impares */
@@ -52,7 +60,6 @@
 .img-proyecto img {
     width: 100%;
     border-radius: 8px;
-    /* box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2); */
     border: 1px solid #dcdee1;
 }
 
@@ -61,6 +68,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .data-proyecto h3 {
@@ -77,11 +85,11 @@
 
 .icons-del-proyecto span {
     margin: 5px 8px;
-    border: 1px solid #7a8b8b45;
-    border-radius: 8px;
-    padding: 3px 8px 3px 8px;
-    color: #7a8b8b;
-    font-size: 0.9rem;
+    border-radius: 2rem;
+    padding: 3px 10px;
+    color: #1572b6;
+    font-size: 0.8rem;
+    background: linear-gradient(145deg, #ffffee, #e1d7c8);
 }
 
 .btn-link-mediacard {
@@ -92,7 +100,18 @@
 }
 
 .btn-link-mediacard button {
-    margin-right: 2rem;
+    margin: 0 1rem;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #fff;
+    background: linear-gradient(145deg, #67b69e, #7ad8bb);
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn-link-mediacard button:hover {
+    background: #7ad8bb;
 }
 
 
@@ -125,15 +144,14 @@
 
     .data-proyecto p {
         padding: 8px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        text-align: left;
     }
 
     .icons-del-proyecto {
         width: 100%;
         overflow: hidden;
         text-overflow: ellipsis;
+        justify-content: flex-start;
     }
 
     .icons-del-proyecto span {
@@ -150,5 +168,9 @@
       
     .proyectos-sectionportfolio .card-proyecto:nth-child(even) {
         flex-direction: column; /* Fondo para las posiciones pares */
+    }
+
+    .btn-link-mediacard {
+        justify-content: center;
     }
 }

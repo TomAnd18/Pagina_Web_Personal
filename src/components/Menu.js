@@ -40,7 +40,7 @@ export default function Menu() {
     >
       <List style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
         {['inicio', 'sobre mi', 'portfolio', 'contacto'].map((text, index) => (
-          <a href={'#'+item[index]} style={{textDecoration: 'none', color: '#000', textTransform: 'capitalize', padding: '8px 0'}}>
+          <a href={'#'+item[index]} style={{textDecoration: 'none', color: '#000', textTransform: 'capitalize', padding: '8px 0', fontFamily: 'Quicksand, sans-serif'}}>
             {/* <ListItemButton style={{marginTop: '0%'}}>
               <ListItemText id='selection-menu' style={{marginTop: '0%', textAlign: 'center'}} primary={text} />
             </ListItemButton> */}

@@ -1,7 +1,6 @@
 .container-global-sectionabout {
     width: 70%;
     background: #fff;
-    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 0 30px 0 rgba(0, 0, 0, 0.05); */
     border-radius: 1rem;
     margin-top: 5rem;
     display: flex;
@@ -34,6 +33,7 @@
     font-family: monospace;
     font-size: 1.1rem;
     margin: 0;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .redes-sectionabout {
@@ -43,8 +43,10 @@
 
 .icons-redes-sectionabout {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .icons-redes-sectionabout a {
@@ -102,6 +104,7 @@
     width: 10rem;
     padding: 1rem 0rem;
     transition: 0.5s all ease;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .icons-sectionabout:hover {
@@ -181,6 +184,7 @@
 
     .icons-redes-sectionabout {
         margin-top: 0rem;
+        flex-direction: row;
     }
 
     .icons-redes-sectionabout a {

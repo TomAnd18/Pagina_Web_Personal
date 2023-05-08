@@ -8,22 +8,25 @@ export default function Portfolio() {
             img: 'https://firebasestorage.googleapis.com/v0/b/react-img-games.appspot.com/o/imggames%2FCaptura%20de%20pantalla%20(41).png?alt=media&token=210fe037-d1d5-4641-ac78-9ec33d039df0',
             tittle: 'E-commerce',
             description: 'E-commerce de videojuegos fisicos y digitales',
-            technologies: ['Html', 'Css', 'JavaScript', 'React', 'MySql', 'Material UI', 'Firebase', 'Auth0'],
-            url: 'https://tiendaonlinereactspringboot-production.up.railway.app/'
+            technologies: ['React', 'MySql', 'Material UI', 'Firebase', 'Auth0'],
+            url: 'https://tiendaonlinereactspringboot-production.up.railway.app/',
+            git: 'https://github.com/TomAnd18/Tienda_Online_React_SpringBoot'
         },
         {
             img: 'https://firebasestorage.googleapis.com/v0/b/react-img-games.appspot.com/o/imggames%2FCaptura%20de%20pantalla%20(90).png?alt=media&token=56016056-2d08-4f56-936c-297f5fdc9430',
             tittle: 'E-commerce',
             description: 'E-commerce de ropa deportiva y accesorios',
             technologies: ['Html', 'Css', 'JavaScript', 'Php', 'MySql', 'Bootstrap'],
-            url: 'http://tomander.eshost.com.ar/'
+            url: 'http://tomander.eshost.com.ar/',
+            git: 'https://github.com/TomAnd18/tpFinalBackendPotreroEDLP'
         },
         {
-            img: 'https://firebasestorage.googleapis.com/v0/b/react-img-games.appspot.com/o/imggames%2FCaptura%20de%20pantalla%20(91).png?alt=media&token=81dcbac3-aa07-4d65-9e0b-464f724a0970',
+            img: 'https://firebasestorage.googleapis.com/v0/b/react-img-games.appspot.com/o/imggames%2FCaptura%20de%20pantalla%20(102).png?alt=media&token=4fd77b68-78f5-4eb9-b8ba-0681153700e3',
             tittle: 'PokeApi',
-            description: 'Pagina consumiendo una Api de Pokemons',
-            technologies: ['Html', 'Css', 'JavaScript'],
-            url: 'https://tomand18.github.io/PokeApi/'
+            description: 'Aplicación web consumiendo una Api de Pokemones',
+            technologies: ['React', 'Material UI'],
+            url: 'https://pokeapi-reacttr.netlify.app/',
+            git: 'https://github.com/TomAnd18/PokeApi-React'
         },
     ]
 
@@ -39,6 +42,7 @@ export default function Portfolio() {
                         description={p.description}
                         technologies={p.technologies}
                         url={p.url}
+                        git={p.git}
                     />;
                 })
             }
