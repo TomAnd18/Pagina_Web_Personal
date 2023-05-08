@@ -30,7 +30,7 @@
     display: flex;
     justify-content: center;
     background: #fff;
-    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2);
+    /* box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2); */
     border-radius: 8px;
     overflow: hidden;
     font-family: 'opensans-regular', sans-serif;

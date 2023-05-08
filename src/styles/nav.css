@@ -31,6 +31,10 @@ html {
     margin-left: 2rem;
 }
 
+.logo-nav:hover {
+    cursor: pointer;
+}
+
 .name-logo-nav {
     position: relative;
     color: #fff;

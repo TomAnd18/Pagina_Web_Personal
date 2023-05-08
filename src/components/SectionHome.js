@@ -4,6 +4,7 @@ import '../styles/sectionHome.css';
 import miCV from '../pdf/CV_Tomas_Regalado_Manay_04_2023.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleDown } from '@fortawesome/free-solid-svg-icons';
+import foto from '../images/perfil.png';
 
 export default function SectionHome() {
   return (

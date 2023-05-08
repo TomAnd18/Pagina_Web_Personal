@@ -28,7 +28,7 @@ export default function Nav() {
         <>
             <header ref={headerRef} className='header-nav'>
                 <div className='container-logo-nav'>
-                    <img className='logo-nav' alt='logo' src={logo}></img>
+                    <img onClick={() => { window.location.href = '/Pagina_Web_Personal/' }} className='logo-nav' alt='logo' src={logo}></img>
                     {/* <a className='name-logo-nav' href='#!'>Web Developer</a> */}
                 </div>
                 <nav className='nav-nav'>
