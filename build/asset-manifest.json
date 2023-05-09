@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Pagina_Web_Personal/static/css/main.f9065b0f.css",
-    "main.js": "/Pagina_Web_Personal/static/js/main.24aa408a.js",
+    "main.css": "/Pagina_Web_Personal/static/css/main.3397f80f.css",
+    "main.js": "/Pagina_Web_Personal/static/js/main.abeb366a.js",
     "static/media/perfil.png": "/Pagina_Web_Personal/static/media/perfil.4e4f0d70d03fc299f8e9.png",
     "static/media/logofullscreen.png": "/Pagina_Web_Personal/static/media/logofullscreen.3844a390184aab3506cf.png",
     "static/media/logophone.png": "/Pagina_Web_Personal/static/media/logophone.07e4423dc7a29afba586.png",
     "static/media/CV_Tomas_Regalado_Manay_04_2023.pdf": "/Pagina_Web_Personal/static/media/CV_Tomas_Regalado_Manay_04_2023.5940d14715e22588e562.pdf",
     "static/media/logo.png": "/Pagina_Web_Personal/static/media/logo.d05cf7e61108b36cdbf6.png",
     "index.html": "/Pagina_Web_Personal/index.html",
-    "main.f9065b0f.css.map": "/Pagina_Web_Personal/static/css/main.f9065b0f.css.map",
-    "main.24aa408a.js.map": "/Pagina_Web_Personal/static/js/main.24aa408a.js.map"
+    "main.3397f80f.css.map": "/Pagina_Web_Personal/static/css/main.3397f80f.css.map",
+    "main.abeb366a.js.map": "/Pagina_Web_Personal/static/js/main.abeb366a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9065b0f.css",
-    "static/js/main.24aa408a.js"
+    "static/css/main.3397f80f.css",
+    "static/js/main.abeb366a.js"
   ]
 }
