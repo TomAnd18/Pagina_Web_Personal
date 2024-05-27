@@ -11,7 +11,8 @@
 .container-global-sectionportfolio h2 {
     margin: 0%;
     color: #1572b6;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
 }
 
 .proyectos-sectionportfolio {
@@ -54,7 +55,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
 .scroll-button {
@@ -95,12 +96,13 @@
     /* outline: 0px solid #fff; */
     transition: 0.2s all ease-out;
     /* box-shadow: 0 0 0 1px #dddfe2; */
+    box-shadow: 0 1px 8px 1px #dddfe2;
 }
 
 .card-proyecto:hover {
     /* outline-width: 3px;
     outline-offset: 3px ; */
-    box-shadow: 0 1px 8px 5px #dddfe2;
+    /* box-shadow: 0 1px 8px 5px #dddfe2; */
     transition: 0.2s all ease-out;
     transform: scale(1.01);
 }

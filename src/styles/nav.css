@@ -204,4 +204,28 @@ html {
     .header-nav.down {
         padding: 5px 0px;
     }
+
+    /* .css-h4y409-MuiList-root {
+        width: 70%;
+        text-align: center;
+        margin: 0 0 8px 0;
+        padding: 5px 0 !important;
+        border-radius: 20px;
+        box-shadow: -3px 3px 0px 0px rgb(0 0 0 / 13%);
+        color: #6e7177 !important;
+        background: #fff;
+    }
+
+    .css-h4y409-MuiList-root {
+        margin-top: 0rem !important;
+    }
+
+    .css-1nvnyqx-MuiPaper-root-MuiDrawer-paper {
+        background: #fff !important;
+        backdrop-filter: blur(10px);
+    }
+
+    .css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+        background: none !important;
+    } */
   }

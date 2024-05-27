@@ -72,7 +72,8 @@
 .container-global-sectionabout h2 {
     margin: 0%;
     color: #1572b6;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
 }
 
 .icons-tittle-sectionabout {
@@ -99,7 +100,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 13%);
     border-radius: 1rem;
     width: 10rem;
     padding: 1rem 0rem;
@@ -208,6 +209,7 @@
         font-size: 0.9rem;
         margin-top: 1rem;
         text-align: justify;
+        line-height: 30px;
     }
 
     .icons-tittle-sectionabout {
@@ -241,11 +243,12 @@
 
     .icons-sectionabout {
         width: 5rem;
-        /* padding: 5px 20px; */
-        border-radius: 5px;
+        border-radius: 100%;
         margin: 0 10px;
+        padding: 25px 10px;
         outline: none;
         pointer-events: none;
+        box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 13%);
     }
 
     .icons-sectionabout span {

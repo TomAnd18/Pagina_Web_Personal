@@ -8,10 +8,10 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 export function MediaCard( { image, tittle, description, technologies, url, git } ) {
   return (
     <div className='card-proyecto'>
-    <div className='title-des-up'>
-      <h3> { tittle } </h3>
-      <p> { description } </p>
-    </div>
+      <div className='title-des-up'>
+        <h3> { tittle } </h3>
+        <p> { description } </p>
+      </div>
       <div className='img-proyecto'>
         <img alt={tittle} src={image}></img>
       </div>
