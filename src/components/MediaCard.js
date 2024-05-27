@@ -8,12 +8,16 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 export function MediaCard( { image, tittle, description, technologies, url, git } ) {
   return (
     <div className='card-proyecto'>
+    <div className='title-des-up'>
+      <h3> { tittle } </h3>
+      <p> { description } </p>
+    </div>
       <div className='img-proyecto'>
         <img alt={tittle} src={image}></img>
       </div>
       <div className='data-proyecto'>
-        <h3> { tittle } </h3>
-        <p> { description } </p>
+        {/* <h3> { tittle } </h3>
+        <p> { description } </p> */}
         <div className='icons-del-proyecto'>
           {
             technologies.map(item => {
@@ -25,18 +29,18 @@ export function MediaCard( { image, tittle, description, technologies, url, git 
           <Link
             component="button"
             variant="body2"
-            onClick={() => { window.open(url, '_blank') }}
+            onClick={() => { window.open(git, '_blank') }}
           >
-            Ver
-            <FontAwesomeIcon style={{fontSize: '0.8rem', marginLeft: '8px'}} icon={faArrowUpRightFromSquare} />
+            <FontAwesomeIcon style={{fontSize: '1rem', marginRight: '3px'}} icon={faGithub} />
+            Github
           </Link>
           <Link
             component="button"
             variant="body2"
-            onClick={() => { window.open(git, '_blank') }}
+            onClick={() => { window.open(url, '_blank') }}
           >
-            Ver Github
-            <FontAwesomeIcon style={{fontSize: '1rem', marginLeft: '8px'}} icon={faGithub} />
+            Ver
+            <FontAwesomeIcon style={{fontSize: '0.8rem', marginLeft: '5px'}} icon={faArrowUpRightFromSquare} />
           </Link>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import '../styles/nav.css';
 import Menu from '../components/Menu';
-import logo from '../images/logo.png';
+import logo from '../images/logo-alone.png';
 
 export default function Nav() {
 
