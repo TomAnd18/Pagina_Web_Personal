@@ -19,7 +19,7 @@ export default function Contacto() {
                 </div>
                 <div className='info-contacto'>
                     <h3 style={{margin: '0', marginBottom: '8px'}}> Mi Email </h3>
-                    <p style={{margin: '0'}}> <a href="mailto:tomander38@gmail.com"> tomander38@gmail.com  </a> </p>
+                    <p style={{margin: '0'}}> <a href="mailto:tomasregaladodev@gmail.com"> tomasregaladodev@gmail.com  </a> </p>
                 </div>
             </div>
             <div className='info-card-contacto'>

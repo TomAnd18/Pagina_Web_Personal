@@ -28,7 +28,7 @@ export default function Footer() {
                 </div>
                 <div className='explore-footer'>
                     <h5> Contacto </h5>
-                    <a href="mailto:tomander38@gmail.com"> <FontAwesomeIcon style={{color: '#1572b6', fontSize: '1rem', marginRight: '5px'}} icon={faEnvelope}/> tomander38@gmail.com </a>
+                    <a href="mailto:tomasregaladodev@gmail.com"> <FontAwesomeIcon style={{color: '#1572b6', fontSize: '1rem', marginRight: '5px'}} icon={faEnvelope}/> tomasregaladodev@gmail.com </a>
                     <a href='#!'> <FontAwesomeIcon style={{color: '#1572b6', fontSize: '1rem', marginRight: '7px'}} icon={faLocationDot}/> La Plata - Argentina </a>
                     <a href="tel:+542216748479"> <FontAwesomeIcon style={{color: '#1572b6', fontSize: '1rem', marginRight: '3px'}} icon={faPhone}/> +54 - 221 6748479 </a>
                 </div>
